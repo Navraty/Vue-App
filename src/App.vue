@@ -45,8 +45,8 @@
           collaborating with highly skilled individuals,<br>
           our agency delivers top-quality services.
         </p>
-        <div class="flex gap-5 py-7">
-          <button class="px-3 rounded-full text-white bg-[#0077FF] hover:bg-sky-700 py-2">Hire Me! </button>
+        <div class="flex gap-6 py-7">
+          <button class="px-3 rounded-full text-white bg-[#0077FF] font-bold hover:bg-sky-700 py-2">Hire Me! </button>
           <button class="px-3 rounded-full text-[#0077FF] font-bold border py-2  ">Download Cv</button>
         </div>
       </div>
