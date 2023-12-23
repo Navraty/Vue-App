@@ -19,7 +19,7 @@
       <a href="">Blog</a>
       <a href="">Contact Me</a>
 
-      <button class="text-white px-6 bg-[#0077FF] py-2 rounded-full">
+      <button class="text-white px-6 bg-[#0077FF] py-2 rounded-full hover:bg-white hover:text-[#0077FF] border border-[#0077FF]">
         Let's chat
       </button>
     </div>
@@ -28,26 +28,26 @@
   
   <!-- la section hiro -->
 
-  <section class="py-5 flex flex-col px-10">
+  <section class="py-5 flex flex-col px-2">
 
     <div class="flex flex-col-reverse gap-5 items-center  
-                lg:flex-row lg:justify-between lg:px-10 
+                lg:flex-row lg:justify-arround  lg:text-wrap
                 md:flex md:justify-between md:items-center">
 
       <div class="flex px-3 flex-col items-center
                   Lg:flex-row lg:flex-col">
 
-        <p class="font-bold">Welcom to my portfolio</p>
-        <span class="font-bold text-3xl">Hi I'm </span>
+        <p class="font-bold flex">Welcom to my portfolio</p>
+        <span class="font-bold text-3xl ">Hi I'm </span>
         <span class="font-bold text-[#0077FF] text-3xl">Robert Junior</span>
         <span class="font-bold text-3xl">Product Designer</span>
-        <p class="text-gray-700 py-3">
+        <p class="text-gray-700 py-3 ">
           collaborating with highly skilled individuals,<br>
           our agency delivers top-quality services.
         </p>
         <div class="flex gap-6 py-7">
-          <button class="px-3 rounded-full text-white bg-[#0077FF] font-bold hover:bg-sky-700 py-2">Hire Me! </button>
-          <button class="px-3 rounded-full text-[#0077FF] font-bold border py-2  ">Download Cv</button>
+          <button class="px-3 rounded-full text-white bg-[#0077FF] font-bold  py-2 hover:bg-white hover:text-[#0077FF] border border-[#0077FF]">Hire Me! </button>
+          <button class="px-3 rounded-full text-[#0077FF] font-bold border py-2 hover:bg-[#0077FF] hover:text-white  ">Download Cv</button>
         </div>
       </div>
       <img src="./assets/photo1.png" class="w-[400px]" alt="">
@@ -68,12 +68,13 @@
   <!-- la section A props -->
 
     <div class="flex flex-col items-center py-5 px-5
-                lg:flex-row lg:justify-evenly lg:py-10
+                lg:flex-row lg:justify-arround lg:py-10
                 md:flex-row md:justify-evenly md:py-10">
 
       <img src="./assets/pexels1.png" class="w-[400px]" alt="">
+
       <div class="">
-        <div class="lg:px-3 flex flex-col items-center py-3">
+        <div class=" flex flex-col items-center py-3 px-5 text-wrap ">
           <span class="text-[#0077FF] text-sm font-bold">ABOUT ME</span><br> 
           <span class="text-[#0077FF] font-bold text-3xl">20 Year's Experience</span><br>
           <span class="font-bold text-3xl">On Product Design</span>
@@ -86,13 +87,13 @@
                     lg:flex-row lg:gap-5 lg:py-12
                     md:flex-row md:gap-5 md:py-12">
 
-          <button class="bg-[#0077FF] rounded-full text-white px-6 font-bold text-sm ">
+          <button class="bg-[#0077FF] rounded-full py-2 text-white px-6 font-bold text-sm hover:bg-white hover:text-[#0077FF] border border-[#0077FF] ">
             Main Skills
           </button>
-          <button class="text-[#0077FF] rounded-full px-6 font-bold text-sm  border border-[#0077FF]">
+          <button class="text-[#0077FF] rounded-full py-2 px-6 font-bold text-sm hover:bg-[#0077FF] hover:text-white  border border-[#0077FF]">
             Awards
           </button>
-          <button class="text-[#0077FF] rounded-full px-6 font-bold text-sm border border-[#0077FF]">
+          <button class="text-[#0077FF] rounded-full py-2 px-6 font-bold text-sm border border-[#0077FF] hover:bg-[#0077FF] hover:text-white ">
             Education
           </button>
         </div>
@@ -133,15 +134,16 @@
                   md:flex-row md:items-center md:flex md:flex-col">
 
         <span class="font-bold text-[#0077FF] ">SERVICES</span>
-        <span class="font-bold text-3xl">Exploring My Design <span class="font-bold text-3xl text-[#0077FF]">Skills</span></span>
-        <span class="font-bold flex">We transform you ideas into a distinctive web project that both inspires <br>
-           </span> <span class="font-bold">you and captivates your customes</span>
+        <span class="font-bold text-3xl py-2">Exploring My Design <span class="font-bold text-3xl text-[#0077FF]">Skills</span></span>
+        <span class="text-semibold flex ">We transform you ideas into a distinctive web project that both inspires <br>
+           </span> <span class="">you and captivates your customes</span>
       </div>
 
       <div class="grid gap-3 py-3
                   lg:grid lg:grid-cols-4 lg:gap-4 lg:py-20
                   md:grid md:grid-cols-2 md:gap-4 md:py-20">
-        <div class="bg-[#0077FF] rounded-lg px-5 py-6 ">
+
+        <div class="bg-[#0077FF] rounded-lg px-5 py-6  ">
             <img src="./assets/icon.png" class="w-[200px] " alt="">
             <span class="font-bold text-white">Website / App Design <br>UX /UI Design </span>
             <p class="text-white text-semi-bold text-sm">Creating Engaging Digital Experiences <br>
@@ -149,7 +151,16 @@
               <button class="text-white">Learn more</button>
         </div>
 
-        <div class="border border-gray-200 rounded-lg px-5 py-6 shadow-lg">
+        <div class="border border-gray-200 rounded-lg px-5 py-6 shadow-lg  hover:bg-[#0077FF] hover:text-white">
+            <img src="./assets/front1.png" class="w-[50px] " alt="">
+            <span class="font-bold text-white text-black">Website / App Design <br>UX /UI Design </span>
+            <p class="text-white text-semi-bold text-black text-sm">Creating Engaging Digital Experiences <br>
+              for Websites and Apps through UX/UI <br>Design
+            </p>
+            <button class="text-[#0077FF]">Learn more</button>
+        </div>
+
+        <div class="border border-gray-200 rounded-lg px-5 py-6 shadow-lg  hover:bg-[#0077FF] hover:text-white  border border-[#0077FF]">
             <img src="./assets/front1.png" class="w-[50px]" alt="">
             <span class="font-bold text-white text-black">Website / App Design <br>UX /UI Design </span>
             <p class="text-white text-semi-bold text-black text-sm">Creating Engaging Digital Experiences <br>
@@ -158,16 +169,7 @@
             <button class="text-[#0077FF]">Learn more</button>
         </div>
 
-        <div class="border border-gray-200 rounded-lg px-5 py-6 shadow-lg">
-            <img src="./assets/front1.png" class="w-[50px]" alt="">
-            <span class="font-bold text-white text-black">Website / App Design <br>UX /UI Design </span>
-            <p class="text-white text-semi-bold text-black text-sm">Creating Engaging Digital Experiences <br>
-              for Websites and Apps through UX/UI <br>Design
-            </p>
-            <button class="text-[#0077FF]">Learn more</button>
-        </div>
-
-        <div class="border border-gray-200 rounded-lg px-5 py-6 shadow-lg">
+        <div class="border border-gray-200 rounded-lg px-5 py-6 shadow-lg  hover:bg-[#0077FF] hover:text-white  border border-[#0077FF]">
             <img src="./assets/front1.png" class="w-[50px]" alt="">
             <span class="font-bold text-white text-black">Website / App Design <br>UX /UI Design </span>
             <p class="text-white text-semi-bold text-black text-sm">Creating Engaging Digital Experiences <br>
@@ -180,7 +182,7 @@
     <!-- les projets -->
     <div class="bg-[#0077FF] py-5">
       <div class="flex items-center flex-col py-5">
-        <span class="text-sm text-white">Our MILESTONES</span>
+        <span class="text-sm text-white font-bold">OUR MILESTONES</span>
         <span class="font-bold text-3xl text-white">What sets our studio apart <br></span>
         <span class="font-bold text-3xl text-white">for your projects?</span>
       </div>
@@ -218,7 +220,7 @@
                       lg:flex-row lg:items-center lg:flex-col lg:py-5
                       md:flex md:items-center md:flex-col md:py-5">
 
-        <span class="text-sm text-[#0077FF]">OUR PROJECTS</span>
+        <span class="text-sm text-[#0077FF] font-bold">OUR PROJECTS</span>
         <span class="font-bold text-3xl text-black">Presenting My Design <br></span>
         <span class="font-bold text-3xl text-black">Porfolio and Case Studies</span>
       </div>
@@ -226,41 +228,31 @@
       <div class=" grid grid-cols-2 gap-3
                   lg:grid lg:grid-cols-4 gap-10
                   ">
-          <button class="bg-[#0077FF] rounded-full py-2 text-white px-10 font-bold text-sm ">
+          <button class="bg-[#0077FF] rounded-full py-2 text-white px-10 font-bold text-sm  hover:bg-white hover:text-[#0077FF] border border-[#0077FF]">
             All
           </button>
-          <button class="text-[#0077FF] rounded-full py-2 px-6 font-bold text-sm  border border-[#0077FF]">
+          <button class="text-[#0077FF] rounded-full py-2 px-6 font-bold text-sm  border border-[#0077FF] hover:bg-[#0077FF] hover:text-white  border border-[#0077FF]">
             UI/UX Design
           </button>
-          <button class="text-[#0077FF] rounded-full py-2 px-6 font-bold text-sm border border-[#0077FF]">
+          <button class="text-[#0077FF] rounded-full py-2 px-6 font-bold text-sm border border-[#0077FF] hover:bg-[#0077FF] hover:text-white  border border-[#0077FF]">
             Branding Design
           </button>
-          <button class="text-[#0077FF] rounded-full px-6 font-bold py-2 text-sm border border-[#0077FF]">
+          <button class="text-[#0077FF] rounded-full px-6 font-bold py-2 text-sm border border-[#0077FF] hover:bg-[#0077FF] hover:text-white  border border-[#0077FF]">
             Wordpress
           </button>
         </div>
 
         <div class="flex flex-col gap-5
-                    lg:grid lg:grid-col-3 lg:px-10 lg:py-6
-                    md:grid md:grid-col-3 md:px-10 md:py-6 ">
-
-          <div class="flex flex-col gap-5
-                      lg:flex-row lg:gap-5 lg:py-2
-                      md:flex md:gap-5 md:py-2
-          ">
+                    lg:grid lg:grid-cols-3 lg:grid-col-col lg:gap-4 
+                    md:grid md:grid-col-3 md:px-10 md:py-6 border-2">
 
             <img src="./assets/preview2.png" alt="">
             <img src="./assets/box.png" alt="">
             <img src="./assets/preview3.png" alt="">
-          </div>
 
-          <div class="flex flex-col gap-5
-                      lg:flex-row lg:gap-5 lg:py-2
-                      md:flex md:gap-5 md:py-2">
             <img src="./assets/box (1).png" alt="">
             <img src="./assets/bloc.png" alt="">
             <img src="./assets/preview6.png" alt="">
-          </div>
           
         </div>
       </div>
@@ -347,6 +339,46 @@
 
         </div>
       </div>
+
+      <footer class="py-10">
+        <div class="grid grid-cols-2 gap-4 bg-[#0077FF] items-center px-10 text-white justify-arround py-5">
+      <div class="bg-white text-black text-center rounded-lg w-1/2">
+        <h2 class="font-bold text-xl mb-2">CONTACT ME</h2>
+        <h1 class="font-bold text-3xl mb-2">Request Free Consultancy</h1>
+        <p>Hotline 24/7: (+23) 5535 68 68</p>
+        <p>Address: 3727 Westheimer Rd., Santa Ana, Illinois 65486</p>
+        <p>Email: info@example.com</p>
+        <p>Work Hours: Mon - Sat : 10:00 - 18:00</p>
+      </div>
+
+      
+      <form class="mt-8 grid grid-cols-1 gap-6 w-1/2">
+
+          <div class="flex gap-2">
+            <input class="py-3 px-4  text-white rounded" type="text" placeholder="Name*">
+            <input class="py-3 px-4  text-white rounded" type="email" placeholder="Email Address*">
+          </div>
+
+          <textarea class="py-3 px-4 text-white rounded" placeholder="How can we help you?"></textarea>
+          <button class="py-2 px-4 bg-white hover:bg-[#0077FF] text-black font-bold rounded">Request Now</button>
+          <div>
+            <input type="checkbox" id="terms">
+            <label for="terms" class="ml-2">By submitting, I agree to the Terms & Conditions</label>
+          </div>
+
+      </form>
+      
+      <div class="col-span-2 mt-8">
+        <div class = "flex gap-5 items-center px-10">
+        <a href="#"><img src="./assets/Group 8.png" alt=""></a>
+        <a href="" class="font-bold">AeroVision</a>
+        <p>© AeroVision | ©2021 All rights reserved.</p>
+        <p>FOLLOW US</p>
+      </div>      
+    </div>
+        </div>
+      </footer>
+    
 </template>
 
 <script>
