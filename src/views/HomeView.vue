@@ -6,4 +6,10 @@ import TheWelcome from '../components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+
+  <Navbar/>
+
+  import Navbar from './composents/Navbar.vue'
+  import Navbar
+
 </template>
