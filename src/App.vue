@@ -12,8 +12,8 @@
     </div>
    
     <div class="hidden 
-                 lg:items-center lg:font-bold 
-                md:flex md:gap-10 md:items-center">
+                 lg:items-center lg:font-bold lg:flex
+                md:flex-row md:gap-10 md:items-center md:block md:font-bold">
 
       <a href="">Home</a>
       <a href="">About Me</a>
@@ -25,7 +25,7 @@
         Let's chat
       </button>
     </div>
-    <a href=""><img src="./assets/menu.png" class="w-[40px] lg:hidden" alt="menu"></a>
+    <a href=""><img src="./assets/menu.png" class="w-[40px] md:hidden lg:hidden" alt="menu"></a>
     
   </nav>
  
@@ -196,7 +196,7 @@
 
       <div class="flex flex-col bg-[#0077FF] gap-5 px-3
                   lg:grid lg:grid-cols-4 lg:gap-5 lg:px-10 lg:py-5
-                  md:grid md:grid-cols-4 md:gap-5 md:px-10 py-5
+                  md:grid md:grid-cols-2 md:gap-5 md:px-10 py-5
                   ">
 
         <div class="shadow-lg bg-white rounded-lg items-center flex flex-col g">
@@ -235,7 +235,7 @@
 
       <div class=" grid grid-cols-2 gap-3
                   lg:grid lg:grid-cols-4 gap-10
-                  ">
+                md:grid md:grid-cols-2 mdp-10">
           <button class="bg-[#0077FF] rounded-full py-2 text-white px-10 font-bold text-sm  hover:bg-white hover:text-[#0077FF] border border-[#0077FF]">
             All
           </button>
